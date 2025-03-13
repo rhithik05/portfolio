@@ -74,7 +74,7 @@
     width: 0;
   }
   50% {
-    width: 100%;
+    width: 20%;
     border-right: 4px solid transparent;
   } /* Hide cursor while typing */
   100% {
