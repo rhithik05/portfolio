@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div id="home" class="nav-bar">
+        <p>Rhithik S</p>
+        <nav class="nav-child">
+          <ul class="nav-ul">
+            <li class="nav-li"><a class="nav-a" href="#home">Home</a></li>
+            <li class="nav-li"><a class="nav-a" href="#about1">About</a></li>
+            <li class="nav-li"><a class="nav-a" href="#p1">Projects</a></li>
+            <li class="nav-li"><a class="nav-a" href="#form1">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div id="about1" class="about">
+      <p class="about-p1">Hi, I'm Rhithik</p>
+      <p class="about-p2">ML engineer</p>
+      <p class="about-p3">
+        A dedicated engineering student at Madras Institute of Technology,
+        specializing in Artificial Intelligence and Data Science. Possessing a
+        strong interest in the field, I am committed to developing expertise and
+        contributing to advancements in intelligent systems.
+      </p>
+      <div class="about-btn-container">
+        <div style="display: flex; align-items: center">
+          <a
+            class="btn btn-primary about-a"
+            data-bs-toggle="offcanvas"
+            href="#offcanvasExample"
+            role="button"
+            aria-controls="offcanvasExample"
+          >
+            More about myself
+          </a>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            style="margin-left: 10px"
+          >
+          <img src="icons8-github (2).svg" alt="GitHub Logo" style="width: 20px; height: 20px; margin-right: 4px; margin-bottom: 6px;">
+            GitHub
+          </button>
+        </div>
+        <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">About</h5>
+            <button
+              type="button"
+              class="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div style="text-align: justify !important;">
+              I am Rhithik, a dedicated and passionate engineering student at
+              Madras Institute of Technology, specializing in Artificial
+              Intelligence and Data Science. With a deep curiosity for machine
+              learning, deep learning, and information retrieval, I constantly
+              seek opportunities to explore and innovate within the AI space.
+              Over time, I have worked on a diverse range of projects, from
+              sentiment-driven song search systems to emotion recognition in
+              audio using LSTMs, showcasing my ability to blend theoretical
+              concepts with practical implementations. I have also delved into
+              MLOps, ensuring smooth automation of ML workflows, and
+              experimented with computer vision, working on tasks such as PCB
+              fault detection using image processing. Beyond academics, I am an
+              active participant in seminars, hackathons, and research
+              discussions, staying updated with emerging technologies. My keen
+              interest in data analysis and visualization has led me to develop
+              interactive dashboards using Power BI, unraveling insights from
+              complex datasets. Apart from my technical pursuits, I maintain a
+              disciplined lifestyle, balancing my academic rigor with my passion
+              for fitness and gym workouts. I believe in continuous learning,
+              critical thinking, and pushing boundaries to solve real-world
+              problems with AI. Whether it's developing recommender systems,
+              optimizing models for better performance, or implementing scalable
+              AI solutions, I always strive to make a meaningful impact in the
+              field of technology. My journey is driven by curiosity,
+              perseverance, and the vision of building intelligent systems that
+              contribute to a better future.
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Do you want to see my GitHub Handle
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">...</div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                  <a
+                    href="https://github.com/rhithik05"
+                    target="_blank"
+                    style="text-decoration: none; color: white"
+                    >Take Me</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects" id="p1">
+      <div
+        style="
+          margin-top: 50px;
+          text-align: center;
+          margin-bottom: 30px;
+          font-weight: bold;
+          color: black;
+        "
+      >
+        <h2>Projects</h2>
+      </div>
+
+      <div class="projects-container">
+        <div class="card">
+          <img
+            src="Comparison_deepfake_blogpost_EN.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">DeepFake Image Detection</h5>
+            <p class="card-text c">
+              A machine learning model that analyzes facial features and
+              patterns to distinguish between deepfake images and real images.
+            </p>
+            <a
+              href="https://github.com/rhithik05"
+              target="_blank"
+              class="btn btn-primary b"
+              >GitHub</a
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Debris Detection</h5>
+            <p class="card-text c">
+              An AI-powered system that uses image processing to identify and
+              classify debris in underwater environments, aiding in marine
+              conservation.
+            </p>
+            <a
+              href="https://github.com/rhithik05"
+              target="_blank"
+              class="btn btn-primary b"
+              >GitHub</a
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="bg-310601101.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Parking System</h5>
+            <p class="card-text c">
+              A C++-based system for efficient parking space allocation using
+              object-oriented approach, vehicle tracking, and automated billing
+              based on time.
+            </p>
+            <a
+              href="https://github.com/rhithik05"
+              target="_blank"
+              class="btn btn-primary b"
+              >GitHub</a
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="278674.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Toxic Comment Detection</h5>
+            <p class="card-text c">
+              An NLP-based system that identifies and filters toxic, hateful, or
+              offensive comments in online discussions, enhancing digital
+              communication safety.
+            </p>
+            <a
+              href="https://github.com/rhithik05"
+              target="_blank"
+              class="btn btn-primary b"
+              >GitHub</a
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="download.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">speech emotion prediction</h5>
+            <p class="card-text c">
+              A deep learning model that analyzes speech patterns and tone to
+              accurately classify emotions, enhancing applications sentiment
+              analysis using audio.
+            </p>
+            <a
+              href="https://github.com/rhithik05"
+              target="_blank"
+              class="btn btn-primary b"
+              >GitHub</a
+            >
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="download (1).jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Recipe Recommender</h5>
+            <p class="card-text c">
+              An AI-driven system that suggests personalized recipes based on
+              user preferences, dietary restrictions, and available ingredients
+              for a smarter cooking experience.
+            </p>
+            <a
+              href="https://github.com/rhithik05"
+              target="_blank"
+              class="btn btn-primary b"
+              >GitHub</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form-container" style="margin-top: 100px">
+      <div style="text-align: center; margin-bottom: 20px">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for collaborations or any inquiries!</p>
+      </div>
+
+      <form class="contact-form" id="form1">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea
+            class="form-control"
+            id="message"
+            rows="4"
+            placeholder="Type your message here..."
+            required
+          ></textarea>
+        </div>
+
+        <div style="text-align: center">
+          <button type="submit" class="btn btn-dark custom-btn">
+            Send Message
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
